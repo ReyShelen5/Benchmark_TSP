@@ -1,0 +1,2 @@
+N,status,optimal_tour_length,optimal_tour_order,runtime_sec,subtour_iterations,instance_csv,route_csv
+30,Optimal,2974.085522015856,"[0, 3, 4, 9, 10, 14, 13, 12, 11, 8, 7, 6, 5, 2, 1, 21, 22, 20, 19, 23, 27, 29, 28, 26, 24, 25, 18, 16, 15, 17, 0]",0.7947793006896973,7,cities.csv,exact_tsp_benchmark_csv\exact_routes\exact_route_N30.csv
