@@ -381,7 +381,10 @@ def main(csv_file):
     print(f"City coordinate CSVs saved in: {INSTANCE_DIR}")
     print(f"Exact route CSVs saved in: {ROUTE_DIR}")
     print("======================================")
-    return runtime
+    if solution["status"] == "Optimal":
+        return runtime, solution["objective"]
+    else:
+        return runtime, None
 
 if __name__ == "__main__":
     main("cities.csv")
